@@ -1,2 +1,2 @@
-# Guide-to-saving-the-Arctic
-A demo project developed at ASC with teammates
+# Guide-To-Saving-The-Arctic-
+Website created to raise awareness about  the melting of the ice caps

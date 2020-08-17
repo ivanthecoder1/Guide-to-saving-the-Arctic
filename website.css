@@ -1,0 +1,222 @@
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Recursive', sans-serif;
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.main{    
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    font-size: large;
+    padding: 15px;
+    
+}
+
+.Image img{
+    
+    width: 100%;
+    opacity: 0.5;
+}
+
+#Title{
+    
+    text-align: center;
+    font-size: 75px;
+
+    background-color: lightblue;
+    color: blue;
+     padding: 10px; 
+} 
+
+.Quote{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+    padding: 3px;
+}
+
+.Quick-Facts{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border: 5px;
+
+    color: red;
+    font-size: 20px;
+
+    border: 1px solid black;
+}
+
+.Middle-Section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Arctic {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#Summary {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+    border: 2px solid blue;
+}
+
+#Graph h3 {
+    text-align: center;
+}
+
+.Articles {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+/* article section */
+.Articles h1 {
+    text-align: center;
+}
+
+#article1 {
+    background-color: whitesmoke;
+    border: 5px solid lightskyblue;
+    padding: 20px;
+    margin: 15px;
+}
+
+#article2 {
+    background-color: whitesmoke;
+    border: 5px solid lightskyblue;
+    padding: 20px;
+    margin: 15px;
+}
+
+#article3 {
+    background-color: whitesmoke;
+    border: 5px solid lightskyblue;
+    padding: 20px;
+    margin: 15px;
+}
+
+a {
+   color: blue;
+   font-size: large; 
+}
+
+
+
+
+.game {
+    
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+.game h2 {
+    text-align: center;
+}
+
+#game-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: whitesmoke;
+    border: 5px solid lightskyblue;
+    padding: 25px;
+    margin: 15px;
+}
+
+#gameImage {
+    display: flex;
+    justify-content: center;
+ }
+#description {
+    padding: 20px;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+
+
+#Emails {
+    background-color: whitesmoke;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 15px   
+}
+
+#Emails h1 {
+    text-align: center;
+}
+
+
+
+
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+
+    margin-left: 0;
+    padding-left: 0;
+}
+ul li{
+    display: inline-block;
+}
+ul li{text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active {
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
