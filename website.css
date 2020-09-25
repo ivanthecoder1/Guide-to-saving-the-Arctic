@@ -36,8 +36,7 @@ body, html{
 #Title{
     
     text-align: center;
-    font-size: 75px;
-
+    font-size: 75px; 
     background-color: lightblue;
     color: blue;
      padding: 10px; 
@@ -49,12 +48,13 @@ body, html{
     font-family: Arial;
     color: black;
     background-color: white;
-    padding: 3px;
+    padding: 10px;
 }
 
 .Quick-Facts{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
 
     background-color: rgb(50, 50, 50);
     padding: 5px;
@@ -83,11 +83,20 @@ body, html{
     padding: 20px;
     margin: 20px;
     font-size: large;
-    border: 2px solid blue;
+}
+
+#Graph img {
+    margin-right: 20px;
+    margin-top: 120px;
 }
 
 #Graph h3 {
-    text-align: center;
+    font-size: small;
+    margin-left: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
 .Articles {
@@ -96,34 +105,34 @@ body, html{
     flex-direction: column;
     padding: 20px;
     margin: 20px;
-    border: 2px solid blue;
     background-color: lightblue;
 }
 
 /* article section */
+
+.Articles {
+    max-width: 510px;
+}
 .Articles h1 {
-    text-align: center;
+    margin-left: 30px;
 }
 
 #article1 {
-    background-color: whitesmoke;
-    border: 5px solid lightskyblue;
-    padding: 20px;
-    margin: 15px;
+    
+    padding: 10px;
+    margin: 10px;
 }
 
 #article2 {
-    background-color: whitesmoke;
-    border: 5px solid lightskyblue;
-    padding: 20px;
-    margin: 15px;
+    
+    padding: 10px;
+    margin: 10px;
 }
 
 #article3 {
-    background-color: whitesmoke;
-    border: 5px solid lightskyblue;
-    padding: 20px;
-    margin: 15px;
+    
+    padding: 10px;
+    margin: 10px;
 }
 
 a {
@@ -131,6 +140,10 @@ a {
    font-size: large; 
 }
 
+.video {
+    margin-left: 20px;
+    margin-top: 150px;
+}
 
 
 
@@ -138,8 +151,6 @@ a {
     
     padding: 20px;
     margin: 20px;
-    border: 2px solid blue;
-    background-color: lightblue;
 }
 
 .game h2 {
@@ -175,14 +186,15 @@ a {
 
 
 #Emails {
-    background-color: whitesmoke;
-    border: 2px solid blue;
+    text-align: center;
     margin: 20px;
     padding: 15px   
+    
 }
 
 #Emails h1 {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 
